@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom translation strings\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-10 20:49+0000\n"
+"PO-Revision-Date: 2026-05-10 21:07+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.4; wp-6.9.4; php-8.3.1\n"
+"X-Domain: cts"
+
+#: includes/Admin/class-admin-manager.php:102
+msgid "10 if empty"
+msgstr "Domyślnie: 10"
+
+#: includes/Classes/class-translation-handler.php:80
+#: includes/Classes/class-translation-importer-exporter.php:56
+#: includes/Classes/class-translation-importer-exporter.php:158
+msgid "Access denied or invalid request."
+msgstr "Brak dostępu lub nieprawidłowe żądanie."
+
+#: includes/Admin/class-admin-manager.php:137
+#: includes/Admin/class-admin-manager.php:153
+#: includes/Classes/class-translation-importer-exporter.php:20
+#: includes/Classes/class-translation-importer-exporter.php:125
+msgid "Access denied."
+msgstr "Brak dostępu."
+
+#: includes/Admin/class-translation-list-table.php:34
+msgid "Actions"
+msgstr "Akcje"
+
+#: includes/Admin/class-admin-manager.php:43
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+#: includes/Admin/class-admin-manager.php:42
+#: includes/Admin/class-render-translation-page.php:31
+msgid "Add New Translation"
+msgstr "Dodaj nowe tłumaczenie"
+
+#: includes/Admin/class-render-registered-strings.php:31
+msgid "Added strings for translation"
+msgstr "Added strings for translation"
+
+#. Description of the plugin
+msgid "Adds translation strings to polylang"
+msgstr "Dodaje frazy do tłumaczenia w Polylang"
+
+#: includes/Admin/class-notice-renderer.php:22
+msgid "All translations have been deleted."
+msgstr "Wszystkie tłumaczenia zostały usunięte."
+
+#: includes/Classes/class-import-export-form.php:46
+msgid ""
+"Are you sure you want to delete all translations? This action cannot be "
+"undone."
+msgstr ""
+"Czy na pewno chcesz usunąć wszystkie tłumaczenia? Tej operacji nie można "
+"cofnąć."
+
+#: includes/Admin/class-translation-list-table.php:87
+msgid "Are you sure you want to delete this translation?"
+msgstr "Czy na pewno usunąć tłumaczenie?"
+
+#: includes/Classes/class-translation-importer-exporter.php:168
+msgid "Could not read the file."
+msgstr "Nie można odczytać pliku."
+
+#: main.php:50
+msgid "CTS Plugin:"
+msgstr "Wtyczka CTS:"
+
+#. Name of the plugin
+msgid "Custom translation strings"
+msgstr "Własne frazy do tłumaczenia"
+
+#: includes/Admin/class-render-translation-page.php:25
+msgid "Database error. Please check the table structure."
+msgstr "Błąd bazy danych. Sprawdź strukturę tabeli."
+
+#: includes/Admin/class-translation-list-table.php:88
+msgid "Delete"
+msgstr "Usuń"
+
+#: includes/Classes/class-import-export-form.php:51
+msgid "Delete All Translations"
+msgstr "Usuń wszystkie tłumaczenia"
+
+#: includes/Admin/class-admin-manager.php:98
+msgid "Delete plugin settings upon uninstallation"
+msgstr "Usuń ustawienia wtyczki podczas odinstalowywania"
+
+#: includes/Admin/class-translation-list-table.php:85
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/Admin/class-admin-manager.php:69
+#: includes/Admin/class-render-translation-page.php:78
+msgid "Edit Translation"
+msgstr "Edytuj tłumaczenie"
+
+#: includes/Classes/class-import-export-form.php:39
+msgid "Export CSV"
+msgstr "Eksport CSV"
+
+#: includes/Classes/class-import-export-form.php:41
+msgid "Export SQL"
+msgstr "Eksport SQL"
+
+#: includes/Classes/class-translation-importer-exporter.php:62
+#: includes/Classes/class-translation-importer-exporter.php:163
+msgid "File not found."
+msgstr "Nie znaleziono pliku."
+
+#: includes/Admin/class-translation-list-table.php:33
+msgid "Group"
+msgstr "grupa"
+
+#: includes/Admin/class-render-translation-page.php:49
+#: includes/Admin/class-render-translation-page.php:96
+msgid "Group (text domain)"
+msgstr "Grupa (text domain)"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://trifectamarketing.pl"
+msgstr ""
+
+#: includes/Admin/class-translation-list-table.php:30
+msgid "ID"
+msgstr ""
+
+#: includes/Admin/class-translation-list-table.php:31
+msgid "Identifier"
+msgstr "Identyfikator"
+
+#: includes/Admin/class-render-translation-page.php:45
+#: includes/Admin/class-render-translation-page.php:93
+msgid "Identifier (translation key)"
+msgstr "Identyfikator"
+
+#: includes/Classes/class-import-export-form.php:23
+msgid "Import"
+msgstr "Importuj"
+
+#: includes/Admin/class-notice-renderer.php:27
+msgid "Import completed: %d added, %d updated, %d skipped."
+msgstr "Import zakończony: %d dodanych, %d zaktualizowanych, %d pominiętych."
+
+#: includes/Classes/class-import-export-form.php:33
+#: includes/Classes/class-translation-importer-exporter.php:235
+msgid "Import SQL"
+msgstr "Pobierz SQL"
+
+#: includes/Classes/class-translation-importer-exporter.php:227
+msgid "Import SQL File"
+msgstr "Pobierz plik SQL"
+
+#: includes/Classes/class-import-export-form.php:17
+msgid "Import Translations (CSV)"
+msgstr "Importuj tłumaczenia (CSV)"
+
+#: includes/Classes/class-import-export-form.php:28
+msgid "Import Translations (SQL)"
+msgstr "Importuj tłumaczenia (SQL)"
+
+#: includes/Admin/class-render-translation-page.php:65
+msgid "Invalid translation identifier."
+msgstr "Nieprawidłowy identyfikator tłumaczenia."
+
+#: main.php:55
+msgid "Manage plugins"
+msgstr "Przejdź do wtyczek"
+
+#: includes/Admin/class-translation-list-table.php:43
+msgid "No registered translations found."
+msgstr "Nie znaleziono tłumaczenia"
+
+#: main.php:53
+msgid "Our features have been suspended."
+msgstr "Funkcje wtyczki zostały wstrzymane."
+
+#: includes/Admin/class-render-translation-page.php:54
+msgid "Register Translation"
+msgstr "Zarejestruj tłumaczenie"
+
+#: includes/Admin/class-admin-manager.php:31
+#: includes/Admin/class-admin-manager.php:32
+msgid "Register Translations"
+msgstr "Zarejestruj tłumaczenia"
+
+#: includes/Admin/class-admin-manager.php:61
+msgid "Registered"
+msgstr "Dodane"
+
+#: includes/Admin/class-admin-manager.php:60
+msgid "Registered Translations"
+msgstr "Zarejestrowane tłumaczenia"
+
+#: includes/Admin/class-render-translation-page.php:101
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#. Author of the plugin
+msgid "Sebastian Szydlowski"
+msgstr ""
+
+#: includes/Admin/class-admin-manager.php:51
+#: includes/Admin/class-admin-manager.php:52
+#: includes/Admin/class-admin-manager.php:88
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/Admin/class-notice-renderer.php:36
+msgid "SQL Import completed: %d queries executed."
+msgstr "Import SQL zakończony: wykonano %d zapytań."
+
+#: includes/Admin/class-translation-list-table.php:32
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/Admin/class-render-translation-page.php:42
+#: includes/Admin/class-render-translation-page.php:90
+msgid "Text to translate"
+msgstr "Tekst do przetłumaczenia"
+
+#: includes/Admin/class-render-translation-page.php:27
+msgid "The Identifier and Value fields are required."
+msgstr "Pola Identyfikator i Tekst są obowiązkowe."
+
+#: main.php:51
+msgid "The required Polylang plugin is not active."
+msgstr "Wymagana wtyczka Polylang nie jest aktywna."
+
+#: includes/Admin/class-render-translation-page.php:23
+msgid "This identifier already exists in this group!"
+msgstr "Ten identyfikator już istnieje w tej grupie!"
+
+#: includes/Admin/class-render-translation-page.php:47
+msgid "This is the text identifier, e.g., <code>welcome_message</code>."
+msgstr "To jest identyfikator tekstu, np. <code>welcome_message</code>."
+
+#: includes/Admin/class-notice-renderer.php:18
+msgid "Translation has been deleted."
+msgstr "Tłumaczenie usunięte"
+
+#: includes/Admin/class-render-translation-page.php:35
+msgid "Translation has been registered."
+msgstr "Tłumaczenie odrzucone"
+
+#: includes/Admin/class-render-translation-page.php:82
+msgid "Translation has been updated."
+msgstr "Tłumaczenie aktualizowane"
+
+#: includes/Admin/class-render-translation-page.php:73
+msgid "Translation not found."
+msgstr "Nie znaleziono tłumaczenia"
+
+#: includes/Admin/class-admin-manager.php:101
+msgid "Translations per page:"
+msgstr "Ilość tłumaczeń na stronę"
